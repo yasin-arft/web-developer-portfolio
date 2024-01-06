@@ -243,25 +243,45 @@ nav li a {
 
 /* footer section start */
 
-footer { 
+footer {
   background-color: #fff8f3;
 }
+
 .footer-container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 100px 0;
   display: flex;
-  align-items: center;
+}
+.footer-column {
+  flex: 1;
 }
 footer .section-title {
   text-align: left;
 }
+
 footer .section-desc {
   padding: 20px;
   padding-left: 0;
   text-align: left;
 }
+
 .social-icons a {
   margin-right: 24px;
 }
+
+footer form input[type="text"],
+footer form input[type="email"],
+footer form textarea {
+  display: block;
+  width: 350px;
+  margin: 12px 0;
+  padding: 16px 30px;
+  border: none;
+  color: var(--text);
+  line-height: 28px; /* 175% */ 
+}
+
+
+
 /* footer section end */
