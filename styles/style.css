@@ -14,6 +14,10 @@ main {
   margin: 0 auto;
 }
 
+main section {
+  margin-top: 100px;
+}
+
 /* reuseable */
 
 :root {
@@ -136,7 +140,6 @@ nav li a {
 /* about section start  */
 
 .about {
-  margin: 100px 0;
   padding: 100px 120px;
   border-radius: 10px;
   background: #FFF8F3;
@@ -147,10 +150,12 @@ nav li a {
   justify-content: space-around;
   text-align: center;
 }
+
 .info-title {
   color: var(--text);
   font-weight: 400;
 }
+
 .info-desc {
   color: var(--dark-secondery);
   font-weight: 700;
@@ -161,12 +166,10 @@ nav li a {
 
 /* what i do section start */
 
-.what-i-do {
-  margin: 100px 0;
-}
 .what-i-do .section-desc {
   padding: 25px 120px;
 }
+
 .skills-container {
   display: flex;
   justify-content: space-between;
@@ -188,3 +191,77 @@ nav li a {
 }
 
 /* what i do section end */
+
+/* resume section start */
+
+.resume-container {
+  display: flex;
+  gap: 20px;
+}
+
+.resume-column .column-title {
+  margin-top: 100px;
+  color: var(--dark-secondery);
+}
+
+.resume-item {
+  padding: 24px;
+  padding-left: 0;
+}
+
+.resume-item-title {
+  color: var(--dark-secondery);
+  font-size: 20px;
+}
+
+.resume-item-institute {
+  color: var(--text);
+  font-weight: 600;
+  margin: 10px 0 20px;
+}
+
+.resume-item-desc {
+  color: var(--text);
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.divider {
+  border: 1px solid #d1d1d1;
+}
+
+.resume .download-cv-btn {
+  text-align: center;
+}
+
+.download-cv {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+/* resume section end */
+
+/* footer section start */
+
+footer { 
+  background-color: #fff8f3;
+}
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+}
+footer .section-title {
+  text-align: left;
+}
+footer .section-desc {
+  padding: 20px;
+  padding-left: 0;
+  text-align: left;
+}
+.social-icons a {
+  margin-right: 24px;
+}
+/* footer section end */
